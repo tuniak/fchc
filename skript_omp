@@ -1,0 +1,5 @@
+cd /storage/brno2/home/tomasikm/fchc_stat/
+g++ -std=c++0x -fopenmp /storage/brno2/home/tomasikm/fchc_stat/fchc.cc
+export OMP_NUM_THREADS=32
+/storage/brno2/home/tomasikm/fchc_stat/a.out
+
